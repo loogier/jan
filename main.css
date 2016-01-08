@@ -1,0 +1,159 @@
+html, body{
+  margin: 0px;
+  padding: 0px;
+}
+
+header{
+  width: 100%;
+  height: 50px;
+  margin: 0  auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: rgba(0,0,0,0.6);
+}
+
+.selectSection{
+  width: 80%;
+  height: auto;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /*border: 1px solid gray;*/
+}
+
+.opcionesUsuario{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.opcionesOponente{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.opciones{
+  width: 350px;
+  height: 100px;
+  display: flex;
+  /*flex-direction: row;*/
+  /*border: 1px solid red;*/
+}
+
+h2{
+  margin:0  auto;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.cajitas{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid gray;
+}
+
+.cajitasSeleccion{
+  width: 350px;
+  display: flex;
+  justify-content: space-between;;
+}
+
+.selecciones{
+  width: 100px;
+  height: 100px;
+  flex-direction: row;
+  display: flex;
+}
+
+.cajitas:hover{
+  border: 2px solid green;
+}
+
+#piedra, #papel, #tijera{
+  border: 1px solid white;
+}
+
+#piedra{
+  background-image: url(../img/piedra.jpg);
+  background-repeat: no-repeat;
+}
+
+#piedra:hover{
+  border: 1px solid green;
+}
+
+#papel{
+  background-image: url(../img/papel.jpg);
+  background-repeat: no-repeat;
+}
+
+#papel:hover{
+  border: 1px solid green;
+}
+
+#tijera{
+  background-image: url(../img/tijera.png);
+  background-repeat: no-repeat;
+}
+
+#tijera:hover{
+  border: 1px solid green;
+}
+
+/*Section resultados*/
+
+.resultados{
+  width: 80%;
+  height: 100px;
+  margin: auto;
+  display:flex; 
+}
+
+.resultadosContainer{
+  width: 100%;
+  height: 100px;
+  margin:10px auto;
+  padding: 10px;
+  display:flex; 
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.texto{
+  width: 300px;
+  height: 50px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+
+.resultadoFinal{
+  width: 300px;
+  height: 50px;
+  font-size: 1.5em;
+  color: green;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#texto1, #texto2{
+  /*border: 1px solid blue;*/
+  font-size: 1.5em;
+}
+
+
